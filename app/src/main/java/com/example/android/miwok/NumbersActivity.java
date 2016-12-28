@@ -3,9 +3,7 @@ package com.example.android.miwok;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.ArrayAdapter;
-import android.widget.LinearLayout;
 import android.widget.ListView;
-import android.widget.TextView;
 
 import java.util.ArrayList;
 
@@ -16,39 +14,29 @@ public class NumbersActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_numbers);
 
-        ArrayList<String> words = new ArrayList<String>();
-        words.add("one");
-        words.add("two");
-        words.add("three");
-        words.add("four");
-        words.add("five");
-        words.add("six");
-        words.add("seven");
-        words.add("eight");
-        words.add("nine");
-        words.add("ten");
+        ArrayList<Word> words = new ArrayList<Word>();
+
+        //creating word objects
+        words.add(new Word("one", "lutty"));
+        words.add(new Word("two", "oṭiiko"));
+        words.add(new Word("three", "tolookosu"));
+        words.add(new Word("four", "oyyiisa"));
+        words.add(new Word("five", "massokka"));
+        words.add(new Word("six", "temmokka"));
+        words.add(new Word("seven", "kenekaku"));
+        words.add(new Word("eight", "kawinṭa"));
+        words.add(new Word("nine", "wo'e"));
+        words.add(new Word("ten", "na'aacha"));
 
         //Log.v("NumbersActivity", "This is the enterire words array: " + words.toString());
-
-        //reference linearLayout root from activity_numbers.xml
-        LinearLayout rootView = (LinearLayout) findViewById(R.id.root_view);
-
-        //populating all textViews with words using while loop
-        for(int i = 0; i < words.size(); i++){
-            //instantiating a new textView every time we call using "this"
-            TextView textView = new TextView(this);
-            textView.setText(words.get(i));
-            rootView.addView(textView);
-        }
-
 
         // Create an {@link ArrayAdapter}, whose data source is a list of Strings. The
         // adapter knows how to create layouts for each item in the list, using the
         // simple_list_item_1.xml layout resource defined in the Android framework.
         // This list item layout contains a single {@link TextView}, which the adapter will set to
         // display a single word.
-        ArrayAdapter<String> itemsAdapter =
-                new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, words);
+        ArrayAdapter<Word> itemsAdapter =
+                new ArrayAdapter<Word>(this, R.layout.activity_numbers., words);
 
         // Find the {@link ListView} object in the view hierarchy of the {@link Activity}.
         // There should be a {@link ListView} with the view ID called list, which is declared in the
