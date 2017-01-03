@@ -36,7 +36,7 @@ public class NumbersActivity extends AppCompatActivity {
         // This list item layout contains a single {@link TextView}, which the adapter will set to
         // display a single word.
         ArrayAdapter<Word> itemsAdapter =
-                new ArrayAdapter<Word>(this, R.layout.activity_numbers., words);
+                new ArrayAdapter<Word>(this, R.layout.List_item, words);
 
         // Find the {@link ListView} object in the view hierarchy of the {@link Activity}.
         // There should be a {@link ListView} with the view ID called list, which is declared in the
