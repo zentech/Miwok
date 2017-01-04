@@ -48,7 +48,9 @@ public class MainActivity extends AppCompatActivity {
         colors.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(view.getContext(), "Opening Colors View", Toast.LENGTH_SHORT).show();
+//                Toast.makeText(view.getContext(), "Opening Colors View", Toast.LENGTH_SHORT).show();
+                Intent numbersIntent = new Intent(MainActivity.this, ColorsActivity.class);
+                startActivity(numbersIntent);
             }
         });
 
@@ -58,7 +60,9 @@ public class MainActivity extends AppCompatActivity {
         family.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(view.getContext(), "Opening Family View", Toast.LENGTH_SHORT).show();
+//                Toast.makeText(view.getContext(), "Opening Family View", Toast.LENGTH_SHORT).show();
+                Intent numbersIntent = new Intent(MainActivity.this, FamilyActivity.class);
+                startActivity(numbersIntent);
             }
         });
 
@@ -68,7 +72,9 @@ public class MainActivity extends AppCompatActivity {
         phrases.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(view.getContext(), "Opening Phrases View", Toast.LENGTH_SHORT).show();
+//                Toast.makeText(view.getContext(), "Opening Phrases View", Toast.LENGTH_SHORT).show();
+                Intent numbersIntent = new Intent(MainActivity.this, PhrasesActivity.class);
+                startActivity(numbersIntent);
             }
         });
     }
