@@ -3,11 +3,47 @@
 
     <item
         is-multidex="false"
+        jar="/home/george/AndroidStudioProjects/Miwok/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="8a034dd16c0dfd75fe86c52c2cd581592acc684a">
+        <dex dex="/home/george/AndroidStudioProjects/Miwok/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.3.0_d84d843af5f8a7076342b38699a3760f8be4f534.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/george/AndroidStudioProjects/Miwok/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="1b8e03daaa43fb0a4cd57e378167c2fd70454c1e">
+        <dex dex="/home/george/AndroidStudioProjects/Miwok/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.3.0_dc966f63d992efc01ec298dcdba39bbe270883ef.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/george/AndroidStudioProjects/Miwok/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="5978390cb3260902fbc181da6fe5edd02def44c4">
+        <dex dex="/home/george/AndroidStudioProjects/Miwok/app/build/intermediates/pre-dexed/debug/instant-run_54f60a0ef20d4b22c40685d44f74eabc0c086037.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/george/AndroidStudioProjects/Miwok/app/build/intermediates/exploded-aar/com.android.support/design/23.3.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="f0001e71cea6ae432a00021c6f727f5ef0f3d27e">
+        <dex dex="/home/george/AndroidStudioProjects/Miwok/app/build/intermediates/pre-dexed/debug/com.android.support-design-23.3.0_e42540c7bcca2706ce2129cc050470c90868f60e.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/home/george/AndroidStudioProjects/Miwok/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.2"
-        sha1="d05f3eea39bbdebf8f3df1fb4b4564330a755942">
+        sha1="fc13b8e92b796a186f099cc9bd2225103d9fd351">
         <dex dex="/home/george/AndroidStudioProjects/Miwok/app/build/intermediates/pre-dexed/debug/instant-run-bootstrap_aa83c953d9a0a13e1894ed728d5b353993980c81.jar" />
     </item>
     <item
@@ -30,15 +66,6 @@
     </item>
     <item
         is-multidex="false"
-        jar="/home/george/AndroidStudioProjects/Miwok/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="8a034dd16c0dfd75fe86c52c2cd581592acc684a">
-        <dex dex="/home/george/AndroidStudioProjects/Miwok/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.3.0_d84d843af5f8a7076342b38699a3760f8be4f534.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="/home/george/AndroidStudioProjects/Miwok/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.3.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
@@ -54,33 +81,6 @@
         revision="23.0.2"
         sha1="db7791d75a07fef9844d06236c1c59ba7bf6997c">
         <dex dex="/home/george/AndroidStudioProjects/Miwok/app/build/intermediates/pre-dexed/debug/support-annotations-23.3.0_a1894ef3fa48b40975e075ef3bf2ae4ffec870a1.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/george/AndroidStudioProjects/Miwok/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="1b8e03daaa43fb0a4cd57e378167c2fd70454c1e">
-        <dex dex="/home/george/AndroidStudioProjects/Miwok/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.3.0_dc966f63d992efc01ec298dcdba39bbe270883ef.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/george/AndroidStudioProjects/Miwok/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="c19590a93e7a1e51daeaac2b37feb069f0a08941">
-        <dex dex="/home/george/AndroidStudioProjects/Miwok/app/build/intermediates/pre-dexed/debug/instant-run_54f60a0ef20d4b22c40685d44f74eabc0c086037.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/george/AndroidStudioProjects/Miwok/app/build/intermediates/exploded-aar/com.android.support/design/23.3.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="f0001e71cea6ae432a00021c6f727f5ef0f3d27e">
-        <dex dex="/home/george/AndroidStudioProjects/Miwok/app/build/intermediates/pre-dexed/debug/com.android.support-design-23.3.0_e42540c7bcca2706ce2129cc050470c90868f60e.jar" />
     </item>
     <item
         is-multidex="false"
