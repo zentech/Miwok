@@ -7,7 +7,6 @@ package com.example.android.miwok;
 
 public class Word {
 
-
     //default string translation for the word
     private String mDefaultTranslation;
 
@@ -93,4 +92,6 @@ public class Word {
     public int getmAudioResourceId() {
         return mAudioResourceId;
     }
+
+
 }
