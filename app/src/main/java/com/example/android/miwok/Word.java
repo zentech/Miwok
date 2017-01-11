@@ -7,6 +7,7 @@ package com.example.android.miwok;
 
 public class Word {
 
+
     //default string translation for the word
     private String mDefaultTranslation;
 
@@ -19,14 +20,19 @@ public class Word {
     //miwok image
     private int mMiwokSourceImage = NO_IMAGE_CONSTANT;
 
+    //store audio resource id
+    private int mAudioResourceId;
+
     /**
      * constructor of Word object taking 2 parameters
      * @param mDefaultTranslation default string translation
      * @param  mMiwokTranslation translation for the word
+     * @param mAudioResourceId stores id of audio file
      */
-    public Word(String mDefaultTranslation, String mMiwokTranslation) {
+    public Word(String mDefaultTranslation, String mMiwokTranslation, int mAudioResourceId) {
         this.mDefaultTranslation = mDefaultTranslation;
         this.mMiwokTranslation = mMiwokTranslation;
+        this.mAudioResourceId = mAudioResourceId;
     }
 
     /**
@@ -34,11 +40,13 @@ public class Word {
      * @param mDefaultTranslation default string translation
      * @param  mMiwokTranslation translation for the word
      * @param mMiwokSourceImage image source id
+     * @param mAudioResourceId store id of audio file
      */
-    public Word(String mDefaultTranslation, String mMiwokTranslation, int mMiwokSourceImage) {
+    public Word(String mDefaultTranslation, String mMiwokTranslation, int mMiwokSourceImage, int mAudioResourceId) {
         this.mDefaultTranslation = mDefaultTranslation;
         this.mMiwokTranslation = mMiwokTranslation;
         this.mMiwokSourceImage = mMiwokSourceImage;
+        this.mAudioResourceId = mAudioResourceId;
     }
 
     /**
@@ -47,6 +55,13 @@ public class Word {
      */
     public String getMiwokTranslation() {
         return mMiwokTranslation;
+    }
+
+    @Override
+    public String toString() {
+        return "Word{" +
+                "mDefaultTranslation='" + mDefaultTranslation + '\'' +
+                '}';
     }
 
     /**
@@ -69,5 +84,13 @@ public class Word {
      * */
     public boolean hasImage() {
         return mMiwokSourceImage != NO_IMAGE_CONSTANT;
+    }
+
+    /**
+     * method to get audio resouce id
+     * @return mAduioResourceId
+     * */
+    public int getmAudioResourceId() {
+        return mAudioResourceId;
     }
 }
